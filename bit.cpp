@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 
-const int NMAX = 100000;
+const int NMAX = 1e6;
 
 class BIT
 {
@@ -17,7 +17,7 @@ public:
     }
   }
 
-  int soma(int indice)
+  int rsq(int indice)
   {
     int s = 0;
     while(indice > 0)
